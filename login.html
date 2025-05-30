@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Big Deal - Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-green-500 to-emerald-600 flex items-center justify-center h-screen">
+
+  <div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md text-center">
+    <div class="flex items-center justify-center space-x-3 mb-6">
+      <img src="https://img.icons8.com/clouds/100/000000/money.png" class="w-16 h-16"/>
+      <h1 class="text-3xl font-bold text-gray-800">Big Deal</h1>
+    </div>
+    <form action="login.php" method="POST" class="space-y-4">
+      <input type="text" name="username" placeholder="Username" required
+        class="w-full px-4 py-2 border border-gray-300 rounded-xl"/>
+      <input type="password" name="password" placeholder="Password" required
+        class="w-full px-4 py-2 border border-gray-300 rounded-xl"/>
+      <button type="submit"
+        class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 rounded-xl">
+        Login
+      </button>
+    </form>
+  </div>
+
+</body>
+</html>
+
+    
