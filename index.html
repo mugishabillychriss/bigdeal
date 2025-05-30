@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Big Deal - Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md py-4 px-8 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-green-700">Big Deal Investment</h1>
+    <div class="space-x-4">
+      <a href="#" class="text-gray-700 hover:text-green-600">Invest</a>
+      <a href="#" class="text-gray-700 hover:text-green-600">Deposit</a>
+      <a href="#" class="text-gray-700 hover:text-green-600">Withdraw</a>
+      <a href="#" class="text-gray-700 hover:text-green-600">Settings</a>
+    </div>
+  </nav>
+
+  <!-- Investment Section -->
+  <section class="p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <!-- Example Product -->
+    <div class="bg-white rounded-xl shadow-md p-4">
+      <img src="images/product1.jpg" class="rounded-lg mb-4" alt="Investment Product 1"/>
+      <h2 class="text-lg font-bold text-gray-800">Real Estate Fund</h2>
+      <p class="text-sm text-gray-600">Invest in urban real estate properties.</p>
+      <button class="mt-3 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Invest Now</button>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md p-4">
+      <img src="images/product2.jpg" class="rounded-lg mb-4" alt="Investment Product 2"/>
+      <h2 class="text-lg font-bold text-gray-800">Tech Startup</h2>
+      <p class="text-sm text-gray-600">Support innovation with high potential returns.</p>
+      <button class="mt-3 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">Invest Now</button>
+    </div>
+
+    <!-- Add more products as needed -->
+  </section>
+
+</body>
+</html>
